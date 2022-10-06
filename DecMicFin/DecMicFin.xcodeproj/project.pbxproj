@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB3BDF6E28E8AB99002B3AEB /* DecMicFinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BDF6D28E8AB99002B3AEB /* DecMicFinApp.swift */; };
+		CB3BDF7028E8AB99002B3AEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BDF6F28E8AB99002B3AEB /* ContentView.swift */; };
+		CB3BDF7228E8AB9A002B3AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3BDF7128E8AB9A002B3AEB /* Assets.xcassets */; };
+		CB3BDF7528E8AB9A002B3AEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3BDF7428E8AB9A002B3AEB /* Preview Assets.xcassets */; };
+		CB3BDF9928E8ABD0002B3AEB /* MicroCredit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB3BDF9728E8ABD0002B3AEB /* MicroCredit.xcdatamodeld */; };
+		CB3BDF9B28E8AC3B002B3AEB /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BDF9A28E8AC3B002B3AEB /* DataController.swift */; };
+		CB3BDF9D28E8B894002B3AEB /* LoanRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BDF9C28E8B894002B3AEB /* LoanRequestView.swift */; };
+		CB3BDF9F28E8CEFC002B3AEB /* LoanHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BDF9E28E8CEFC002B3AEB /* LoanHistoryView.swift */; };
+		CB3BDFA428E8DBCF002B3AEB /* LoanStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BDFA328E8DBCF002B3AEB /* LoanStatusView.swift */; };
+		CB3BDFA628E8E750002B3AEB /* LoanDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BDFA528E8E750002B3AEB /* LoanDetailsView.swift */; };
+		CB3BDFE028E93D46002B3AEB /* NavMainButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BDFDF28E93D45002B3AEB /* NavMainButtons.swift */; };
+		CB3BDFE228E94E4D002B3AEB /* LoanGuaranteeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BDFE128E94E4D002B3AEB /* LoanGuaranteeView.swift */; };
+		CB3BDFE428E958B0002B3AEB /* MainDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BDFE328E958B0002B3AEB /* MainDashboard.swift */; };
+		CB3BDFE628EF480D002B3AEB /* GuarantorDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BDFE528EF480D002B3AEB /* GuarantorDetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB3BDF7B28E8AB9A002B3AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3BDF6228E8AB99002B3AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3BDF6928E8AB99002B3AEB;
+			remoteInfo = DecMicFin;
+		};
+		CB3BDF8528E8AB9A002B3AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3BDF6228E8AB99002B3AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3BDF6928E8AB99002B3AEB;
+			remoteInfo = DecMicFin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB3BDF6A28E8AB99002B3AEB /* DecMicFin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecMicFin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3BDF6D28E8AB99002B3AEB /* DecMicFinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecMicFinApp.swift; sourceTree = "<group>"; };
+		CB3BDF6F28E8AB99002B3AEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB3BDF7128E8AB9A002B3AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB3BDF7428E8AB9A002B3AEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB3BDF7A28E8AB9A002B3AEB /* DecMicFinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecMicFinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3BDF8428E8AB9A002B3AEB /* DecMicFinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecMicFinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3BDF9828E8ABD0002B3AEB /* MicroCredit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MicroCredit.xcdatamodel; sourceTree = "<group>"; };
+		CB3BDF9A28E8AC3B002B3AEB /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		CB3BDF9C28E8B894002B3AEB /* LoanRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanRequestView.swift; sourceTree = "<group>"; };
+		CB3BDF9E28E8CEFC002B3AEB /* LoanHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanHistoryView.swift; sourceTree = "<group>"; };
+		CB3BDFA328E8DBCF002B3AEB /* LoanStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanStatusView.swift; sourceTree = "<group>"; };
+		CB3BDFA528E8E750002B3AEB /* LoanDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanDetailsView.swift; sourceTree = "<group>"; };
+		CB3BDFDF28E93D45002B3AEB /* NavMainButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavMainButtons.swift; sourceTree = "<group>"; };
+		CB3BDFE128E94E4D002B3AEB /* LoanGuaranteeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanGuaranteeView.swift; sourceTree = "<group>"; };
+		CB3BDFE328E958B0002B3AEB /* MainDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboard.swift; sourceTree = "<group>"; };
+		CB3BDFE528EF480D002B3AEB /* GuarantorDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuarantorDetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB3BDF6728E8AB99002B3AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3BDF7728E8AB9A002B3AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3BDF8128E8AB9A002B3AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB3BDF6128E8AB99002B3AEB = {
+			isa = PBXGroup;
+			children = (
+				CB3BDF6C28E8AB99002B3AEB /* DecMicFin */,
+				CB3BDF6B28E8AB99002B3AEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB3BDF6B28E8AB99002B3AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB3BDF6A28E8AB99002B3AEB /* DecMicFin.app */,
+				CB3BDF7A28E8AB9A002B3AEB /* DecMicFinTests.xctest */,
+				CB3BDF8428E8AB9A002B3AEB /* DecMicFinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB3BDF6C28E8AB99002B3AEB /* DecMicFin */ = {
+			isa = PBXGroup;
+			children = (
+				CB3BDF6D28E8AB99002B3AEB /* DecMicFinApp.swift */,
+				CB3BDF6F28E8AB99002B3AEB /* ContentView.swift */,
+				CB3BDF9E28E8CEFC002B3AEB /* LoanHistoryView.swift */,
+				CB3BDF7128E8AB9A002B3AEB /* Assets.xcassets */,
+				CB3BDF7328E8AB9A002B3AEB /* Preview Content */,
+				CB3BDF9728E8ABD0002B3AEB /* MicroCredit.xcdatamodeld */,
+				CB3BDF9A28E8AC3B002B3AEB /* DataController.swift */,
+				CB3BDF9C28E8B894002B3AEB /* LoanRequestView.swift */,
+				CB3BDFA328E8DBCF002B3AEB /* LoanStatusView.swift */,
+				CB3BDFA528E8E750002B3AEB /* LoanDetailsView.swift */,
+				CB3BDFE528EF480D002B3AEB /* GuarantorDetailsView.swift */,
+				CB3BDFDF28E93D45002B3AEB /* NavMainButtons.swift */,
+				CB3BDFE128E94E4D002B3AEB /* LoanGuaranteeView.swift */,
+				CB3BDFE328E958B0002B3AEB /* MainDashboard.swift */,
+			);
+			path = DecMicFin;
+			sourceTree = "<group>";
+		};
+		CB3BDF7328E8AB9A002B3AEB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB3BDF7428E8AB9A002B3AEB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB3BDF6928E8AB99002B3AEB /* DecMicFin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3BDF8E28E8AB9A002B3AEB /* Build configuration list for PBXNativeTarget "DecMicFin" */;
+			buildPhases = (
+				CB3BDF6628E8AB99002B3AEB /* Sources */,
+				CB3BDF6728E8AB99002B3AEB /* Frameworks */,
+				CB3BDF6828E8AB99002B3AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecMicFin;
+			productName = DecMicFin;
+			productReference = CB3BDF6A28E8AB99002B3AEB /* DecMicFin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB3BDF7928E8AB9A002B3AEB /* DecMicFinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3BDF9128E8AB9A002B3AEB /* Build configuration list for PBXNativeTarget "DecMicFinTests" */;
+			buildPhases = (
+				CB3BDF7628E8AB9A002B3AEB /* Sources */,
+				CB3BDF7728E8AB9A002B3AEB /* Frameworks */,
+				CB3BDF7828E8AB9A002B3AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3BDF7C28E8AB9A002B3AEB /* PBXTargetDependency */,
+			);
+			name = DecMicFinTests;
+			productName = DecMicFinTests;
+			productReference = CB3BDF7A28E8AB9A002B3AEB /* DecMicFinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB3BDF8328E8AB9A002B3AEB /* DecMicFinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3BDF9428E8AB9A002B3AEB /* Build configuration list for PBXNativeTarget "DecMicFinUITests" */;
+			buildPhases = (
+				CB3BDF8028E8AB9A002B3AEB /* Sources */,
+				CB3BDF8128E8AB9A002B3AEB /* Frameworks */,
+				CB3BDF8228E8AB9A002B3AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3BDF8628E8AB9A002B3AEB /* PBXTargetDependency */,
+			);
+			name = DecMicFinUITests;
+			productName = DecMicFinUITests;
+			productReference = CB3BDF8428E8AB9A002B3AEB /* DecMicFinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB3BDF6228E8AB99002B3AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CB3BDF6928E8AB99002B3AEB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CB3BDF7928E8AB9A002B3AEB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CB3BDF6928E8AB99002B3AEB;
+					};
+					CB3BDF8328E8AB9A002B3AEB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CB3BDF6928E8AB99002B3AEB;
+					};
+				};
+			};
+			buildConfigurationList = CB3BDF6528E8AB99002B3AEB /* Build configuration list for PBXProject "DecMicFin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB3BDF6128E8AB99002B3AEB;
+			productRefGroup = CB3BDF6B28E8AB99002B3AEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB3BDF6928E8AB99002B3AEB /* DecMicFin */,
+				CB3BDF7928E8AB9A002B3AEB /* DecMicFinTests */,
+				CB3BDF8328E8AB9A002B3AEB /* DecMicFinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB3BDF6828E8AB99002B3AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3BDF7528E8AB9A002B3AEB /* Preview Assets.xcassets in Resources */,
+				CB3BDF7228E8AB9A002B3AEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3BDF7828E8AB9A002B3AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3BDF8228E8AB9A002B3AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB3BDF6628E8AB99002B3AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3BDF7028E8AB99002B3AEB /* ContentView.swift in Sources */,
+				CB3BDFE228E94E4D002B3AEB /* LoanGuaranteeView.swift in Sources */,
+				CB3BDFE628EF480D002B3AEB /* GuarantorDetailsView.swift in Sources */,
+				CB3BDF9B28E8AC3B002B3AEB /* DataController.swift in Sources */,
+				CB3BDF9928E8ABD0002B3AEB /* MicroCredit.xcdatamodeld in Sources */,
+				CB3BDFE028E93D46002B3AEB /* NavMainButtons.swift in Sources */,
+				CB3BDFA628E8E750002B3AEB /* LoanDetailsView.swift in Sources */,
+				CB3BDFE428E958B0002B3AEB /* MainDashboard.swift in Sources */,
+				CB3BDF9D28E8B894002B3AEB /* LoanRequestView.swift in Sources */,
+				CB3BDF6E28E8AB99002B3AEB /* DecMicFinApp.swift in Sources */,
+				CB3BDFA428E8DBCF002B3AEB /* LoanStatusView.swift in Sources */,
+				CB3BDF9F28E8CEFC002B3AEB /* LoanHistoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3BDF7628E8AB9A002B3AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3BDF8028E8AB9A002B3AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB3BDF7C28E8AB9A002B3AEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB3BDF6928E8AB99002B3AEB /* DecMicFin */;
+			targetProxy = CB3BDF7B28E8AB9A002B3AEB /* PBXContainerItemProxy */;
+		};
+		CB3BDF8628E8AB9A002B3AEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB3BDF6928E8AB99002B3AEB /* DecMicFin */;
+			targetProxy = CB3BDF8528E8AB9A002B3AEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB3BDF8C28E8AB9A002B3AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB3BDF8D28E8AB9A002B3AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB3BDF8F28E8AB9A002B3AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DecMicFin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Crypto.DecMicFin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB3BDF9028E8AB9A002B3AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DecMicFin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Crypto.DecMicFin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB3BDF9228E8AB9A002B3AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Crypto.DecMicFinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecMicFin.app/DecMicFin";
+			};
+			name = Debug;
+		};
+		CB3BDF9328E8AB9A002B3AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Crypto.DecMicFinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecMicFin.app/DecMicFin";
+			};
+			name = Release;
+		};
+		CB3BDF9528E8AB9A002B3AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Crypto.DecMicFinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DecMicFin;
+			};
+			name = Debug;
+		};
+		CB3BDF9628E8AB9A002B3AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Crypto.DecMicFinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DecMicFin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB3BDF6528E8AB99002B3AEB /* Build configuration list for PBXProject "DecMicFin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3BDF8C28E8AB9A002B3AEB /* Debug */,
+				CB3BDF8D28E8AB9A002B3AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3BDF8E28E8AB9A002B3AEB /* Build configuration list for PBXNativeTarget "DecMicFin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3BDF8F28E8AB9A002B3AEB /* Debug */,
+				CB3BDF9028E8AB9A002B3AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3BDF9128E8AB9A002B3AEB /* Build configuration list for PBXNativeTarget "DecMicFinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3BDF9228E8AB9A002B3AEB /* Debug */,
+				CB3BDF9328E8AB9A002B3AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3BDF9428E8AB9A002B3AEB /* Build configuration list for PBXNativeTarget "DecMicFinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3BDF9528E8AB9A002B3AEB /* Debug */,
+				CB3BDF9628E8AB9A002B3AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB3BDF9728E8ABD0002B3AEB /* MicroCredit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB3BDF9828E8ABD0002B3AEB /* MicroCredit.xcdatamodel */,
+			);
+			currentVersion = CB3BDF9828E8ABD0002B3AEB /* MicroCredit.xcdatamodel */;
+			path = MicroCredit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB3BDF6228E8AB99002B3AEB /* Project object */;
+}
